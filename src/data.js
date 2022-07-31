@@ -1,5 +1,10 @@
- const coffeList = [
-    {
+const {v4: uuidv4}= require('uuid')
+
+ 
+const coffeList = [
+    {   
+        
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL'],
         name: 'Expresso Tradicional',
@@ -7,6 +12,7 @@
         image: 'http://127.0.0.1:5173/assets/expressoTradicional.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL'],
         name: 'Expresso Americano',
@@ -14,6 +20,7 @@
         image: 'http://127.0.0.1:5173/assets/expressoAmericano.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL'],
         name: 'Expresso Cremoso',
@@ -21,6 +28,7 @@
         image: 'http://127.0.0.1:5173/assets/expressoCremoso.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL','GELADO'],
         name: 'Expresso Gelado',
@@ -28,6 +36,7 @@
         image: 'http://127.0.0.1:5173/assets/expressoGelado.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL','COM LEITE'],
         name: 'Café com Leite',
@@ -35,6 +44,7 @@
         image: 'http://127.0.0.1:5173/assets/cafeComLeite.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL','COM LEITE'],
         name: 'Latte',
@@ -42,6 +52,7 @@
         image: 'http://127.0.0.1:5173/assets/latte.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL','COM LEITE'],
         name: 'Capuccino',
@@ -49,6 +60,7 @@
         image: 'http://127.0.0.1:5173/assets/capuccino.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL','COM LEITE'],
         name: 'Macchiato',
@@ -56,6 +68,7 @@
         image: 'http://127.0.0.1:5173/assets/macchiato.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['TRADICIONAL','COM LEITE'],
         name: 'Mocaccino',
@@ -63,6 +76,7 @@
         image: 'http://127.0.0.1:5173/assets/mocaccino.svg',
     },
     {
+        id : uuidv4(),
         price: 12.90,
         type: ['ESPECIAL','COM LEITE'],
         name: 'Chocolate Quente',
@@ -70,6 +84,7 @@
         image: 'http://127.0.0.1:5173/assets/chocolateQuente.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['EPECIAL', 'ALCÓLICO', 'GELADO'],
         name: 'Cubano',
@@ -77,6 +92,7 @@
         image: 'http://127.0.0.1:5173/assets/cubano.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['ESPECIAL'],
         name: 'Havaiano',
@@ -84,6 +100,7 @@
         image: 'http://127.0.0.1:5173/assets/havaiano.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['ESPECIAL'],
         name: 'Árabe',
@@ -91,6 +108,7 @@
         image: 'http://127.0.0.1:5173/assets/arabe.svg',
     },
     {
+        id : uuidv4(),
         price: 9.90,
         type: ['ESPECIAL', 'ALCÓLICA'],
         name: 'Irlandês',
